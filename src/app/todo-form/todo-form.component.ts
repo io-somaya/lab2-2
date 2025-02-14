@@ -13,7 +13,7 @@ export class TodoFormComponent {
   addTodo() {
     if (this.todoText.trim()) {
       this.addTodoEvent.emit(this.todoText);
-      this.todoText = ''; // Clear the input after adding
+      this.todoText = ''; 
     }
   }
 
